@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Заявка</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">-->
+    <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+    <link href="css/request.css" rel="stylesheet">
+</head>
+<body>
+<img src="img/logo.svg" class="img-fluid logo">
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Выберите объект</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label for="exampleSelect2">Выберите</label>
+                    <select multiple class="form-control" id="exampleSelect2">
+                        <option>Калининский</option>
+                        <option>Невский</option>
+                        <option>Московский</option>
+                        <option>Красносельский</option>
+                        <option>Фрунзенский</option>
+                    </select>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+                <button type="button" class="btn btn-primary">Сохранить</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-6"><span class="header">Оформление заявки</span></h1>
+        <div class="well">
+        <div class="container-fluid">
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-sm-6">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Выберите адрес</button>
+                        <label class="element">Название объекта</label>
+                    </div>
+
+                    <div class="form-group col-md-6">
+                        <select class="form-control">
+                            <option selected>Выберите неисправность...</option>
+                            <option>Возгорание</option>
+                            <option>Поломка</option>
+                            <option>Задымление</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <select class="form-control">
+
+                            <option selected>Выберите приоритет...</option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" placeholder="Контактное лицо">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" id="exampleFormControlTextArea1" rows="3" placeholder="Информация"></textarea>
+                </div>
+                <div class="form-group">
+                    <select class="form-control">
+                        <option selected>Выберите ответственного инженера</option>
+                        <option>Васильев</option>
+                        <option>Григорьев</option>
+                        <option>Краснов</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+        </div>
+    </div>
+    <div class="center">
+        <button type="button" class="btn btn-success">Отправить</button>
+    </div>
+  </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

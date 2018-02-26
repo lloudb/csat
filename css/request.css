@@ -1,0 +1,20 @@
+.jumbotron {
+    background-color: #D9D9D9;
+    color: white;
+}
+.jumbotron .display-6 {
+    color: #005caa;
+}
+.btn-success{
+    background-color: #005caa;
+    border: none;
+}
+.header {
+    border-bottom: 1px solid #ffd901;
+}
+.well{
+    background-color: #D9D9D9;
+}
+.element {
+    color: #2b2a30;
+}

@@ -1,0 +1,15 @@
+.icon-g span:first-child {
+    margin-left: 10px;
+}
+.icon-g span:last-child {
+    margin-left: 10px;
+}
+.icon-g {
+    min-width: 80px;
+}
+
+@media screen and (min-width: 576px) and (min-width: 768px) and (min-width: 992px) and (min-width: 1394px) {
+    .icon-g {
+        max-width: 50px;
+    }
+}

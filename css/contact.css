@@ -1,0 +1,18 @@
+.jumbotron {
+    background-color: white;
+    color: white;
+}
+.jumbotron .display-6 {
+    color: #10a114;
+}
+.btn-success{
+    background-color: #10a114;
+    border: none;
+}
+.header {
+    border-bottom: 1px solid #ffd901;
+}
+.well{
+    background-color: white;
+    border-color: #10a114;
+}
